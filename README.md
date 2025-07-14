@@ -45,9 +45,11 @@ Feature        ----------      Description
   o By extension: Groups files like pdf, jpg, etc.
   o By type: Uses predefined extensions to classify into Image, Video, Document.
   o By size: Groups as Small (<1MB), Medium (1–10MB), Large (>10MB)
+  
 • Live Monitoring:
   o Uses Observer and FileSystemEventHandler from watchdog to listen for new files.
   o When a new file is created, it is instantly categorized based on selected options.
+  
 • GUI Flow:
   o Users choose folder → select sorting preferences → click "Start Monitoring"
   o Once active, the tool silently organizes incoming files.
@@ -55,8 +57,13 @@ Feature        ----------      Description
 # What You Learned:
 
 • Building GUI applications with checkboxes, buttons, and dialogs using Tkinter
+
 • Implementing event-driven file system monitoring using Watchdog
+
 • Performing file operations (move, rename, create folders) using os and shutil
+
 • Structuring Python applications with clear logic separation
+
 • Handling file type inference, extension parsing, and robust exception handling
+
 • Delivering a real-world productivity automation tool
