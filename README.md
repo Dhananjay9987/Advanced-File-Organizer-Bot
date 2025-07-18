@@ -22,14 +22,14 @@ users to start organizing without typing a single command.
 
 # Key Features:
 
-Feature        ----------      Description
-
-1. Folder Selection ----------  User selects any folder via a GUI
-2. Sort by Extension ---------- Sorts files into folders like JPG_Files, PDF_Files, etc.
-3. Sort by File Type ---------- Categorizes files as Image, Video, Document, or Other
-4. Sort by File Size ---------- Categorizes files as Small, Medium, or Large
-5. Real-Time Monitoring ------- Uses Watchdog to monitor a folder and organize new files as they appear
-6. GUI Interface (Tkinter) ---- Easy-to-use interface with checkboxes and buttons
+| Feature          | Description                                               |
+| --------------|----------------------------------------------------------------------|
+| Folder Selection   | User selects any folder via a GUI                |
+| Sort by Extension  | Sorts files into folders like JPG_Files, PDF_Files, etc.|
+| Sort by File Type | Categorizes files as Image, Video, Document, or Other |
+| Sort by File Size | Categorizes files as Small, Medium, or Large |
+| Real-Time Monitoring | Uses Watchdog to monitor a folder and organize new files as they appear |
+| GUI Interface (Tkinter) | Easy-to-use interface with checkboxes and buttons |
 
 # Technologies Used:
 
